@@ -1,0 +1,127 @@
+{
+  "rotation_speed_deg_per_sec": 180.0,
+  "invert_rotation": true,
+  "deadzone_left": 0.12,
+  "deadzone_right": 0.1,
+  "wrap_yaw": true,
+  "invert_left_y": false,
+  "invert_right_y": false,
+  "output_smoothing": 0.0,
+  "joystick_index": 0,
+  "left_x_axis": 0,
+  "left_y_axis": 1,
+  "right_x_axis": 2,
+  "right_y_axis": 3,
+  "poll_hz": 240,
+  "mouse_enabled": true,
+  "mouse_speed_px_per_sec": 1200.0,
+  "mouse_deadzone": 0.18,
+  "mouse_accel": 1.35,
+  "mouse_invert_y": false,
+  "mouse_activation_mode": "always",
+  "mouse_hold_key": "r3",
+  "arrow_hold_ms": 120,
+  "calibrated": true,
+  "calibration": {
+    "hat_index": 0,
+    "dpad_mode": "hat",
+    "stick_axes": {
+      "lx": {
+        "axis": 0,
+        "sign": -1,
+        "rest": 0.0
+      },
+      "ly": {
+        "axis": 1,
+        "sign": -1,
+        "rest": -0.020721435546875
+      },
+      "rx": {
+        "axis": 2,
+        "sign": -1,
+        "rest": 0.00848388671875
+      },
+      "ry": {
+        "axis": 3,
+        "sign": -1,
+        "rest": -0.0155029296875
+      }
+    },
+    "square_x": {
+      "type": "button",
+      "index": 2
+    },
+    "cross_a": {
+      "type": "button",
+      "index": 0
+    },
+    "circle_b": {
+      "type": "button",
+      "index": 1
+    },
+    "triangle_y": {
+      "type": "button",
+      "index": 3
+    },
+    "dpad_up": {
+      "type": "hat_dir",
+      "hat_index": 0,
+      "hx": 0,
+      "hy": 1
+    },
+    "dpad_left": {
+      "type": "hat_dir",
+      "hat_index": 0,
+      "hx": -1,
+      "hy": 0
+    },
+    "dpad_down": {
+      "type": "hat_dir",
+      "hat_index": 0,
+      "hx": 0,
+      "hy": -1
+    },
+    "dpad_right": {
+      "type": "hat_dir",
+      "hat_index": 0,
+      "hx": 1,
+      "hy": 0
+    },
+    "l1_lb": {
+      "type": "button",
+      "index": 4
+    },
+    "l2_lt": {
+      "type": "axis",
+      "index": 4,
+      "mode": "minus1_to_1",
+      "rest": -1.0
+    },
+    "r1_rb": {
+      "type": "button",
+      "index": 5
+    },
+    "r2_rt": {
+      "type": "axis",
+      "index": 5,
+      "mode": "minus1_to_1",
+      "rest": -1.0
+    },
+    "start": {
+      "type": "button",
+      "index": 7
+    },
+    "select_back": {
+      "type": "button",
+      "index": 6
+    },
+    "l3": {
+      "type": "button",
+      "index": 8
+    },
+    "r3": {
+      "type": "button",
+      "index": 9
+    }
+  }
+}
